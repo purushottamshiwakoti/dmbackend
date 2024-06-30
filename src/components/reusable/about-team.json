@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_reusable_about_teams",
+  "info": {
+    "displayName": "AboutTeam",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SubTitle": {
+      "type": "string",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Teams": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.team"
+    }
+  }
+}

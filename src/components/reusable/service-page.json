@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_reusable_service_pages",
+  "info": {
+    "displayName": "ServicePage"
+  },
+  "options": {},
+  "attributes": {
+    "SubTitle": {
+      "type": "string",
+      "required": true
+    },
+    "Title": {
+      "type": "enumeration",
+      "enum": [
+        "WEBSITE DEVELOPMENT",
+        "GRAPHIC DESIGNING",
+        "SEO & CONTENT WRITTING",
+        "DIGITAL MARKETING"
+      ],
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Alt": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_reusable_videos",
+  "info": {
+    "displayName": "Video"
+  },
+  "options": {},
+  "attributes": {
+    "SubTitle": {
+      "type": "string",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "WatchTitle": {
+      "type": "string",
+      "required": true
+    },
+    "EstimateTitle": {
+      "type": "string",
+      "required": true
+    },
+    "Phone": {
+      "type": "string",
+      "required": true
+    },
+    "YoutubeUrl": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

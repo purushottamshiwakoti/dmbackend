@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_reviews",
+  "info": {
+    "displayName": "Review",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Role": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Review": {
+      "type": "text",
+      "required": true
+    },
+    "Alt": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

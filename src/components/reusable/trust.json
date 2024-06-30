@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_reusable_trusts",
+  "info": {
+    "displayName": "Trust"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "ShowButton": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "ButtonName": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    }
+  }
+}

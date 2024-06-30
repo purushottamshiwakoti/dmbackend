@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_reusable_fun_facts",
+  "info": {
+    "displayName": "FunFact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "CompletedTitle": {
+      "type": "string",
+      "required": true
+    },
+    "CompletedCount": {
+      "required": true,
+      "type": "biginteger"
+    },
+    "ClientTitle": {
+      "type": "string",
+      "required": true
+    },
+    "ProjectTitle": {
+      "type": "string",
+      "required": true
+    },
+    "ProjectCount": {
+      "type": "biginteger",
+      "required": true
+    },
+    "EmployeeTitle": {
+      "type": "string",
+      "required": true
+    },
+    "EmployeeCount": {
+      "type": "biginteger",
+      "required": true
+    },
+    "ClientCount": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}

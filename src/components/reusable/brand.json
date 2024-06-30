@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_reusable_brands",
+  "info": {
+    "displayName": "Brand"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Alt": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_reusable_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SubTitle": {
+      "type": "string",
+      "required": true
+    },
+    "Title": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor",
+      "required": true
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "ShowButton": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "ButtonName": {
+      "type": "string",
+      "required": false
+    },
+    "ButtonLink": {
+      "type": "string",
+      "required": false
+    },
+    "ShapeA": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "ShapeB": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

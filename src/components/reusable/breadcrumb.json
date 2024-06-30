@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_reusable_breadcrumbs",
+  "info": {
+    "displayName": "Breadcrumb"
+  },
+  "options": {},
+  "attributes": {
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Home": {
+      "type": "string",
+      "required": true
+    },
+    "Page": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

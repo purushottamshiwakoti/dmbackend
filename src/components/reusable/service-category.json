@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_reusable_service_categories",
+  "info": {
+    "displayName": "ServiceCategory"
+  },
+  "options": {},
+  "attributes": {
+    "SubTitle": {
+      "type": "string",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

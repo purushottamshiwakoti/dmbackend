@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_reusable_testomonials",
+  "info": {
+    "displayName": "Testomonial",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SubTitle": {
+      "type": "string",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.review"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_reusable_why_wes",
+  "info": {
+    "displayName": "WhyWe",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "List": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list"
+    },
+    "Accordion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.accordion"
+    }
+  }
+}

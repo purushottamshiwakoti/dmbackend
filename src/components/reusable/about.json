@@ -1,0 +1,78 @@
+{
+  "collectionName": "components_reusable_abouts",
+  "info": {
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SubTitle": {
+      "type": "string",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "ServiceTitle": {
+      "type": "string",
+      "required": true
+    },
+    "ServiceDescription": {
+      "type": "text",
+      "required": true
+    },
+    "ExpertTitle": {
+      "type": "string",
+      "required": true
+    },
+    "ExpertDescription": {
+      "type": "text",
+      "required": true
+    },
+    "MainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "MainImageAlt": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ImageAlt": {
+      "type": "string",
+      "required": true
+    },
+    "AboutItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list"
+    },
+    "ShowButton": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "ButtonName": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    }
+  }
+}
